@@ -1,7 +1,6 @@
 {
   "name": "l4n-query",
   "version": "0.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "lint": "eslint --ignore-path .gitignore  .",
@@ -19,5 +18,17 @@
   "license": "MIT",
   "dependencies": {
     "debug": "^3.1.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bonuspunkt/l4n-query.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bonuspunkt/l4n-query/issues"
+  },
+  "homepage": "https://github.com/Bonuspunkt/l4n-query#readme",
+  "description": ""
 }
