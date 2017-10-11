@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - "8"
+  - "node"
+
+cache:
+  directories:
+    - ~/.npm
+
+deploy:
+  provider: npm
+  email: bonuspunkt+npmjs@gmail.com
+  api_key:
+    secure: RITgH4a7wSyioelAjjh3/yx2t7yLnUAjTSJ5PvibL7vGML85Z73KQO/J0GeO2nm0FfL3pdJIYzn+qpkBuZtwbI6TavTD1RCDuuGwNU+VjEgCJokQDxaIGCcr28WrmYqO5uShDnTnFXGcXpsnJGepaEp4Z/nozBgIZtlVJTr3G8YsiDXmxBTUcTnE+0xHkhFLxmywLbdkhcb8fKW8gpWb+vWn9XUfACnZ+9Ysl+3WWrEWHRzXKmGqXd/8nHtsfm7ZxoAK3xjBvIQjPSCyAIDISbKRtj3n1S7joFauuHsZjJ86LJwm0XSF6NhCOqvQd+LEa9oZj3LBIUB4DJgRAAf5cZB+v0W6pMN7KZfRsu8eICvMhEa+xL5S3iY0MnYeatdrnXcSkWp32rRWKHw3zbStkOABgfdjKhLbZqoBA85+rAsMcANXefXjoQ8LQlwBQAN9G/ODQV7pezbcq52eNDTN0Osd0Gr8UqmMTuSLvLYGgeqx7Nws446Jas7Dr4O7PNJ8gWR75KtVMYHW94bDFEqVYSt94NrgsPYSNwFoD4darmdBLfliTgsMtJSyVHfaYl9u1HMaXcLEb/5Qq4GeZt9S6N2Hb4ndZvX8+u77cnT8Y9vImGjooKoZkoBvpK94jz1/BlwD+Rh5I05SjanhlDtK/n4V7tOTxCxDMegku6iDQxg=
+  on:
+    tags: true
+    repo: Bonuspunkt/l4n-query
