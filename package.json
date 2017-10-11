@@ -30,5 +30,42 @@
     "url": "https://github.com/Bonuspunkt/l4n-query/issues"
   },
   "homepage": "https://github.com/Bonuspunkt/l4n-query#readme",
-  "description": ""
+  "description": "",
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true,
+      "mocha": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 2017,
+      "ecmaFeatures": {
+        "experimentalObjectRestSpread": true
+      }
+    },
+    "extends": [
+      "eslint:recommended"
+    ],
+    "plugins": [
+      "prettier"
+    ],
+    "rules": {
+      "no-unused-vars": [
+        "error",
+        {
+          "vars": "all",
+          "args": "none"
+        }
+      ],
+      "prettier/prettier": [
+        "error",
+        {
+          "printWidth": 100,
+          "singleQuote": true,
+          "tabWidth": 4,
+          "trailingComma": "all"
+        }
+      ]
+    }
+  }
 }
